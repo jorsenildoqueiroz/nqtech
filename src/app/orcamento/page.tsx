@@ -57,8 +57,8 @@ const dadosPadraoOrcamento: DadosOrcamento = {
   equipamento_modelo: "Dell Inspiron 15 3000",
   validade_dias: 10,
   prazo_conclusao: "2 a 3 dias úteis",
-  condicoes_pagamento: "Pix (chave celular), Cartão de Crédito ou Débito",
-  pix_chave_ou_link: "71992265250",
+  condicoes_pagamento: "Pix (CPF), Cartão de Crédito ou Débito",
+  pix_chave_ou_link: "01554833582",
   desconto: 30,
   itens: [
     { id: "1", tipo: "Serviço", descricao: "Diagnóstico avançado e reparo de circuito de alimentação da placa-mãe", quantidade: 1, valor_unitario: 280 },
@@ -244,10 +244,10 @@ function FolhaOrcamento({
               <CreditCard size={14} /> Pagamento Facilitado (Pix)
             </h4>
             <p className="text-[10px] text-gray-600 max-w-[280px] leading-relaxed">
-              Chave Pix Celular: <b>{dados.pix_chave_ou_link}</b>
+              Chave Pix CPF: <b>{dados.pix_chave_ou_link}</b>
             </p>
             <p className="text-[9px] text-gray-500 mt-1">
-              Favorecido: Nildo Queiroz • Envie o comprovante via WhatsApp (71)
+              Favorecido: Jorsenildo Santos Queiroz • Envie o comprovante via WhatsApp (71)
               99226-5250.
             </p>
           </div>
@@ -328,8 +328,8 @@ export default function OrcamentoPage() {
       numero_os: "", data_proposta: new Intl.DateTimeFormat("pt-BR").format(new Date()),
       cliente_nome: "", cliente_documento: "", cliente_telefone: "", equipamento_modelo: "",
       validade_dias: 10, prazo_conclusao: "2 a 3 dias úteis",
-      condicoes_pagamento: "Pix (chave celular), Cartão de Crédito ou Débito",
-      pix_chave_ou_link: "71992265250", desconto: 0,
+      condicoes_pagamento: "Pix (chave CPF), Cartão de Crédito ou Débito",
+      pix_chave_ou_link: "01554833582", desconto: 0,
       itens: [{ id: "1", tipo: "Serviço", descricao: "", quantidade: 1, valor_unitario: 0 }],
     };
     salvarDados(limpo);
