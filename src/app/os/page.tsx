@@ -72,7 +72,7 @@ const dadosPadrao: DadosOS = {
   link_fotos: "",
   empresa_nome: "Nildo Queiroz - Tecnologia e Design",
   empresa_telefone: "(71) 99226-5250",
-  empresa_email: "contato@nildoqueiroz.com.br",
+  empresa_email: "nildo_queiroz@outlook.com",
   empresa_cnpj: "Salvador - BA",
   empresa_endereco: "Salvador - Bahia • Atendimento Especializado",
 };
@@ -346,7 +346,7 @@ export default function OSPage() {
       link_fotos: "",
       empresa_nome: "Nildo Queiroz - Tecnologia e Design",
       empresa_telefone: "(71) 99226-5250",
-      empresa_email: "contato@nildoqueiroz.com.br",
+      empresa_email: "nildo_queiroz@outlook.com",
       empresa_cnpj: "Salvador - BA",
       empresa_endereco: "Salvador - Bahia • Atendimento Especializado",
     };
