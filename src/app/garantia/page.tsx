@@ -31,23 +31,23 @@ interface DadosGarantia {
   texto_termo: string;
 }
 
-const termoPadrao = `1. PRAZO E VIGÊNCIA: A Nildo Queiroz - Soluções em Tecnologia assegura garantia legal de 90 (noventa) dias sobre os serviços prestados e peças substituídas, em estrita observância ao Art. 26, inciso II, do Código de Defesa do Consumidor (CDC). O prazo decadencial inicia-se na data de retirada do equipamento pelo cliente.
+const termoPadrao = `1. PRAZO E VIGÊNCIA: A Nildo Queiroz – Soluções em Tecnologia assegura garantia legal de 90 (noventa) dias sobre os serviços prestados e peças substituídas, em estrita observância ao Art. 26, inciso II, do Código de Defesa do Consumidor (CDC). O prazo decadencial inicia-se na data de retirada do equipamento pelo cliente.
 
 2. ESCOPO DA COBERTURA: A presente garantia é restrita e cobre única e exclusivamente os componentes de hardware e as partes estruturais/carcaças que foram efetivamente reparados, reconstruídos ou fornecidos pela nossa assistência técnica, bem como a mão de obra empregada para a solução do defeito original descrito nesta Ordem de Serviço. Em serviços de reparo e reconstrução de carcaças ou dobradiças, a garantia limita-se estritamente ao ponto específico reconstruído, não abrangendo trincas, quebras ou ressecamento natural do plástico em outras áreas da estrutura original do equipamento. Problemas secundários ou vícios ocultos não relacionados ao serviço prestado não estão cobertos.
 
 3. PERDA DO DIREITO À GARANTIA: O equipamento perderá automaticamente a cobertura da garantia caso seja constatada em avaliação técnica qualquer uma das seguintes hipóteses: 
-   
-   a) Rompimento, rasura, alteração ou remoção do lacre de segurança; 
-   b) Danos físicos decorrentes de negligência, mau uso, quedas, impactos, derramamento de líquidos ou oxidação por exposição a umidade; 
-   c) Danos elétricos causados por picos de energia, descargas atmosféricas (raios), uso de estabilizadores inadequados ou fontes de alimentação não originais; 
-   d) Abertura do equipamento ou qualquer intervenção técnica realizada pelo próprio cliente ou por terceiros não autorizados; 
-   e) Nos casos de reparo em carcaças e dobradiças, será considerado mau uso a abertura ou fechamento da tampa pelas extremidades laterais (gerando torção), esforço excessivo além do limite angular das dobradiças, transporte do equipamento segurando-o pela tela ou queda/impacto que comprometa a área reconstruída.
 
-4. SOFTWARE E DADOS (ISENÇÃO DE RESPONSABILIDADE): A garantia não se aplica a softwares, englobando falhas no sistema operacional, atualizações mal-sucedidas, corrompimento de arquivos, exclusão acidental ou infecção por vírus e malwares após a entrega do equipamento. A realização de backup prévio e a salvaguarda dos dados pessoais ou empresariais são de inteira e exclusiva responsabilidade do cliente, não cabendo à Resolve TI qualquer ônus por perda de informações.
+a) Rompimento, rasura, alteração ou remoção do lacre de segurança da Nildo Queiroz – Soluções em Tecnologia; 
+b) Danos físicos decorrentes de negligência, mau uso, quedas, impactos, derramamento de líquidos ou oxidação por exposição a umidade; 
+c) Danos elétricos causados por picos de energia, descargas atmosféricas (raios), uso de estabilizadores inadequados ou fontes de alimentação não originais; 
+d) Abertura do equipamento ou qualquer intervenção técnica realizada pelo próprio cliente ou por terceiros não autorizados; 
+e) Nos casos de reparo em carcaças e dobradiças, será considerado mau uso a abertura ou fechamento da tampa pelas extremidades laterais (gerando torção), esforço excessivo além do limite angular das dobradiças, transporte do equipamento segurando-o pela tela ou queda/impacto que comprometa a área reconstruída.
+
+4. SOFTWARE E DADOS (ISENÇÃO DE RESPONSABILIDADE): A garantia não se aplica a softwares, englobando falhas no sistema operacional, atualizações malsucedidas, corrompimento de arquivos, exclusão acidental ou infecção por vírus e malwares após a entrega do equipamento. A realização de backup prévio e a salvaguarda dos dados pessoais ou empresariais são de inteira e exclusiva responsabilidade do cliente, não cabendo à Nildo Queiroz – Soluções em Tecnologia qualquer ônus por perda de informações.
 
 5. PROCEDIMENTO DE ACIONAMENTO: Para usufruir da garantia, o cliente deverá encaminhar o equipamento ao nosso laboratório em Salvador/BA, obrigatoriamente acompanhado deste Certificado de Garantia ou do número da Ordem de Serviço correspondente. Conforme o Art. 18, §1º do CDC, a assistência técnica reserva-se o prazo legal de até 30 (trinta) dias para avaliar, diagnosticar e sanar o vício do equipamento retornado em garantia.
 
-6. ABANDONO DE EQUIPAMENTO: Equipamentos consertados, com orçamentos reprovados ou sem possibilidade de reparo, que não forem retirados pelo cliente no prazo máximo de 90 (noventa) dias, contados a partir da data de notificação (via telefone, WhatsApp ou e-mail cadastrado), serão caracterizados como abandono de bem. Neste caso, a Nildo Queiroz - Soluções em Tecnologia reserva-se o direito de desmontar, descartar ou alienar o equipamento para custear as despesas operacionais, de armazenamento e de peças empregadas, isentando-se de qualquer obrigação de ressarcimento.
+6. ABANDONO DE EQUIPAMENTO: Equipamentos consertados, com orçamentos reprovados ou sem possibilidade de reparo, que não forem retirados pelo cliente no prazo máximo de 90 (noventa) dias, contados a partir da data de notificação (via telefone, WhatsApp ou e-mail cadastrado), serão caracterizados como abandono de bem. Neste caso, a Resolve TI reserva-se o direito de desmontar, descartar ou alienar o equipamento para custear as despesas operacionais, de armazenamento e de peças empregadas, isentando-se de qualquer obrigação de ressarcimento.
 `
 const dadosPadraoGarantia: DadosGarantia = {
   numero_os: "1052",
