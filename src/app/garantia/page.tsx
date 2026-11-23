@@ -147,23 +147,15 @@ function FolhaGarantia({ dados }: { dados: DadosGarantia }) {
         </div>
       </div>
 
-      {/* RODAPÉ E ASSINATURAS */}
+     {/* RODAPÉ E ASSINATURA */}
       <div className="mt-4 pt-6 shrink-0">
-        <div className="grid grid-cols-2 gap-20 px-8">
-          <div className="text-center border-t-2 border-gray-800 pt-2">
+        <div className="flex justify-center px-8">
+          <div className="w-72 text-center border-t-2 border-gray-800 pt-2">
             <p className="text-[9px] font-black uppercase text-gray-800">
               Assinatura do Técnico Responsável
             </p>
             <p className="text-[8px] font-bold text-gray-500 mt-0.5 uppercase">
               {dados.tecnico_responsavel} • Tecnólogo em Gestão de TI
-            </p>
-          </div>
-          <div className="text-center border-t-2 border-gray-800 pt-2">
-            <p className="text-[9px] font-black uppercase text-gray-800">
-              Assinatura do Cliente
-            </p>
-            <p className="text-[8px] font-bold text-gray-400 mt-0.5 uppercase">
-              Ciente e de Acordo
             </p>
           </div>
         </div>
@@ -177,7 +169,6 @@ function FolhaGarantia({ dados }: { dados: DadosGarantia }) {
     </div>
   );
 }
-
 /* ================================================================
    PÁGINA PRINCIPAL
    ================================================================ */
