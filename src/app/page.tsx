@@ -136,7 +136,7 @@ export default function HomePage() {
                 <span>WhatsApp: (71) 99226-5250</span>
               </a>
               <span className="text-amber-400 font-bold">
-                Salvador - Bahia • Tecnólogo em Gestão de TI
+                Salvador - Bahia • Especialista em Gestão de TI
               </span>
             </div>
           </div>
@@ -236,7 +236,7 @@ export default function HomePage() {
           <div>
             <h3 className="text-lg font-bold text-foreground flex items-center gap-2">
               <Wrench className="w-5 h-5 text-amber-500" />
-              Nildo Queiroz • Gestão & Assistência Técnica Especializada
+              Nildo Queiroz • Assistência Técnica Especializada
             </h3>
             <p className="text-xs text-foreground/60 mt-1">
               Atendimento com transparência, diagnóstico detalhado e documentos claros para seus clientes.
