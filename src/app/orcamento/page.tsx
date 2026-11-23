@@ -273,12 +273,12 @@ function FolhaOrcamento({
               Nildo Queiroz
             </p>
             <p className="text-[8px] text-gray-400">
-              Tecnologia & Design • Responsável Técnico
+              Responsável Técnico
             </p>
           </div>
         </div>
         <p className="text-[7.5px] text-gray-400 uppercase tracking-widest">
-          Nildo Queiroz • Tecnologia e Design • Salvador - Bahia • (71)
+          Nildo Queiroz - Soluções em Tecnologia • Salvador - Bahia • (71)
           99226-5250
         </p>
       </div>
@@ -328,7 +328,7 @@ export default function OrcamentoPage() {
       numero_os: "", data_proposta: new Intl.DateTimeFormat("pt-BR").format(new Date()),
       cliente_nome: "", cliente_documento: "", cliente_telefone: "", equipamento_modelo: "",
       validade_dias: 10, prazo_conclusao: "2 a 3 dias úteis",
-      condicoes_pagamento: "Pix (chave CPF), Cartão de Crédito ou Débito",
+      condicoes_pagamento: "Pix, Cartão de Crédito ou Débito",
       pix_chave_ou_link: "01554833582", desconto: 0,
       itens: [{ id: "1", tipo: "Serviço", descricao: "", quantidade: 1, valor_unitario: 0 }],
     };
