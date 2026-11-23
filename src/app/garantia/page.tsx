@@ -169,7 +169,7 @@ function FolhaGarantia({ dados }: { dados: DadosGarantia }) {
         </div>
         <div className="mt-8 text-center border-t border-gray-100 pt-3">
           <p className="text-[7.5px] text-gray-400 font-bold uppercase tracking-[0.2em]">
-            Nildo Queiroz • Tecnologia e Design • Salvador/BA • WhatsApp (71)
+            Nildo Queiroz - Soluções em Tecnologia • Salvador/BA • WhatsApp (71)
             99226-5250
           </p>
         </div>
