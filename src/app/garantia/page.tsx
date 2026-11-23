@@ -76,7 +76,7 @@ function FolhaGarantia({ dados }: { dados: DadosGarantia }) {
             priority // Prioriza o carregamento da logo
           />
           <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mt-2">
-           Garantia de serviços prestados e peças fornecidas • Salvador/BA
+           Garantia de serviços prestados e peças fornecidas
           </p>
           <p className="text-[9px] text-gray-500 font-bold tracking-widest mt-2">
             Assistência Técnica em PCs & Notebooks • Salvador/BA
@@ -137,7 +137,7 @@ function FolhaGarantia({ dados }: { dados: DadosGarantia }) {
         {/* CLÁUSULAS */}
         <div className="flex-1 mt-2">
           <h4 className="text-xs font-black mb-2 uppercase border-b-2 border-gray-100 pb-1 text-gray-800">
-            Cláusulas e Condições Gerais da Garantia
+            Termo de garantia e condições gerais de serviço
           </h4>
           <div className="text-[10.5px] leading-snug text-justify whitespace-pre-wrap text-gray-800 font-medium">
             {dados.texto_termo || "Nenhum termo configurado."}
