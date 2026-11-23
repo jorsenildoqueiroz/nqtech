@@ -47,8 +47,8 @@ const termoPadrao = `1. PRAZO E VIGÊNCIA: A Nildo Queiroz - Soluções em Tecno
 
 5. PROCEDIMENTO DE ACIONAMENTO: Para usufruir da garantia, o cliente deverá encaminhar o equipamento ao nosso laboratório em Salvador/BA, obrigatoriamente acompanhado deste Certificado de Garantia ou do número da Ordem de Serviço correspondente. Conforme o Art. 18, §1º do CDC, a assistência técnica reserva-se o prazo legal de até 30 (trinta) dias para avaliar, diagnosticar e sanar o vício do equipamento retornado em garantia.
 
-6. ABANDONO DE EQUIPAMENTO: Equipamentos consertados, com orçamentos reprovados ou sem possibilidade de reparo, que não forem retirados pelo cliente no prazo máximo de 90 (noventa) dias, contados a partir da data de notificação (via telefone, WhatsApp ou e-mail cadastrado), serão caracterizados como abandono de bem. Neste caso, a Nildo Queiroz - Soluções em Tecnologia reserva-se o direito de desmontar, descartar ou alienar o equipamento para custear as despesas operacionais, de armazenamento e de peças empregadas, isentando-se de qualquer obrigação de ressarcimento.'
-
+6. ABANDONO DE EQUIPAMENTO: Equipamentos consertados, com orçamentos reprovados ou sem possibilidade de reparo, que não forem retirados pelo cliente no prazo máximo de 90 (noventa) dias, contados a partir da data de notificação (via telefone, WhatsApp ou e-mail cadastrado), serão caracterizados como abandono de bem. Neste caso, a Nildo Queiroz - Soluções em Tecnologia reserva-se o direito de desmontar, descartar ou alienar o equipamento para custear as despesas operacionais, de armazenamento e de peças empregadas, isentando-se de qualquer obrigação de ressarcimento.
+`
 const dadosPadraoGarantia: DadosGarantia = {
   numero_os: "1052",
   cliente_nome: "Maria Oliveira da Silva",
